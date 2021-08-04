@@ -93,7 +93,7 @@ Module Module1
         Else
             ftpclient = FtpWebRequest.Create("ftp://www.ecommerce.com/1100x750/")
         End If
-      ftpclient.Credentials = New NetworkCredential("liveprodimgs", "lveWP66?")
+      ftpclient.Credentials = New NetworkCredential("ssssssss", "sssssss")
       ftpclient.Method = WebRequestMethods.Ftp.ListDirectory
       Using sr As New StreamReader(ftpclient.GetResponse().GetResponseStream)
          Dim line As String = sr.ReadLine
